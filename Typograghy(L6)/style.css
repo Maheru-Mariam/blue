@@ -1,0 +1,59 @@
+/* Typography is the way a text is arranged and presented. */
+
+body {
+    padding: 10%;
+    font-size: 2rem;
+
+    font-family: serif;
+    font-family: sans-serif;
+    font-family: monospace;
+    font-family: fantasy;
+    font-family: cursive;
+    font-family: 'Courier New', Courier, monospace;
+
+      /* ekta available na thakle onno ta use kore */
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Roboto', sans-serif;  /* fonts.google.com theke */
+
+
+}
+
+/* form remove kori, so niche commented */
+
+/* input, button {
+    font: inherit;
+} */
+
+p {
+    text-decoration: dashed;
+    text-decoration: underline;
+    text-decoration: overline;
+    text-decoration: line-through;
+    text-decoration: none;
+
+    text-transform: capitalize;
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: none;
+
+    text-align: left;
+    text-align: right;
+    text-align: justify;
+    text-align: center;
+    text-align: left;
+
+    text-indent: 5em;
+
+    line-height: 1.5;
+    letter-spacing: 0.1em;
+    word-spacing: 0.5em;
+
+    font-weight: bolder;
+
+    font-style: italic;
+    font-style: oblique;
+    font-style: normal;
+}

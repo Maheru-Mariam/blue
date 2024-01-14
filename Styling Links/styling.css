@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+  body {
+    padding: 10%;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  /* Default styles for css links */
+  
+  /* a {
+    text-decoration: none;
+    cursor: pointer;
+    color: blue;  links non visited hole 
+  } */
+
+  /* main {
+    opacity: 0.4; 0-1 porjonto
+  } */
+
+ a {
+    color: hsl(207, 44%, 49%);
+ }
+
+
+  /* links visited, non-visited,active or touch korle */
+  /* pseudo class use kori */
+
+  a:visited {
+    color: purple;  /* etai default setting */
+  }
+
+  a:hover, a:focus {
+    color: hsl(207, 44%, 49%);
+    opacity: 0.4;
+    background: gold;
+  }
+
+  a:active {
+    color: red;
+  }
+
+/* anchor,visited,hover,active ei same order e code korte hobe */
