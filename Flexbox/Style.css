@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    padding: 20px;
+
+}
+
+.container {
+    max-width: 800px;
+    min-height: 400px;
+    margin-inline: auto;
+    border: 1px solid #000;
+    display: flex;
+    gap: 1rem;
+    /* justify-content: flex-end;
+    justify-content: space-between; */
+    justify-content: space-evenly;
+    justify-content: center;
+    align-items: end;
+    align-items: center;
+    flex-direction: column;
+    /* flex-direction: row-reverse; */
+    flex-direction: row;
+    flex-wrap: nowrap; /* resize kore shrink korle box er bhetor thakbe */
+
+    /* ..shorthand.. */
+    flex-flow: row wrap;
+    align-content: flex-end;
+    align-content: flex-start;
+    align-content: center;
+    align-content: space-around;
+    align-content: space-evenly;
+}
+
+.box {
+   /*  min-width: 100px; */
+    height: 100px;
+    background-color: #000;
+    color: #fff;
+    font-size: 2rem;
+    padding: 0.5rem;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* flex-grow: 1; */ /* 2 ta box same amount barbe  */
+    /* flex-shrink: 1; */ /* flex flow nowrap dei eta check korte */
+    /* flex-basis: 250px; */ /* min width na dile */
+
+    /* (shorthand) 1st value grow,2nd value shrink,3rd value basis */
+    flex: 1 1 150px;
+}
+
+/* .box:nth-child(2) {
+    flex-grow: 2;
+} */
+.box:nth-child(2) {
+    /* flex-shrink: 2;
+    shorthand */
+    flex: 2 2 150px;
+    order: 4; /* anything above 0 */
+    /* order: 0;
+    order: -1; */
+}
